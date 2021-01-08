@@ -1,1 +1,2 @@
 Skyrim.esm filter=lfs diff=lfs merge=lfs -text
+Dragonborn.esm filter=lfs diff=lfs merge=lfs -text
