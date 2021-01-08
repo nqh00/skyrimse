@@ -1,0 +1,25 @@
+"InstallScript"
+{
+	"Registry"
+	{
+		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Bethesda Softworks\\Skyrim Special Edition\\"
+		{
+			"string"
+			{
+				"Installed Path"		"%INSTALLDIR%\\"
+			}
+		}
+	}
+	"Copy Folders"
+	{
+		"Skyrim Special Edition"
+		{
+			"SrcFolder 1"		"%INSTALLDIR%\\Skyrim"
+			"DstFolder 1"		"%USER_MYDOCS%\\My Games\\Skyrim Special Edition"
+		}
+	}
+}
+"kvsignatures"
+{
+	"InstallScript"		"a59e1a7c8b3a66a59735e05f4fda02324d84e4583acf8b0afd8544799b1a89fc1d09209543b99ebc6014e339501e8e3c4c3c6be4a2969201324a786b1bbb9e4c0f1bf55cf9af77889089250579518ce0ab5031d4127004238a163960d42149607e90c4422f4b13596b588e2444de2fd1f336380075393e3f303d5eee725b190f"
+}
